@@ -1,8 +1,11 @@
 {
   "name": "show-and-tell",
   "description": "A Cucumber BDD tool to demo scenarios to stakeholders",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=6.11.x"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ademuk/show-and-tell.git"
@@ -12,7 +15,7 @@
     "cucumber",
     "protractor"
   ],
-  "author": "adem@ardweb.co.uk",
+  "author": "Adem Gaygusuz <adem@ardweb.co.uk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ademuk/show-and-tell/issues"
