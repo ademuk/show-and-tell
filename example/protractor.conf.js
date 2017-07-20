@@ -15,7 +15,7 @@ exports.config = {
   ],
 
   cucumberOpts: {
-    require: ['features/**/*.js', '../index.js'],
-    format: '../formatter.js'
+    require: ['features/**/*.js', require.resolve('show-and-tell')],
+    format: 'node_modules/show-and-tell/formatter.js'
   }
 };
