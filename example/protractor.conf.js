@@ -15,6 +15,7 @@ exports.config = {
   ],
 
   cucumberOpts: {
-    require: ['features/**/*.js', '../index.js']
+    require: ['features/**/*.js', '../index.js'],
+    format: '../formatter.js'
   }
 };

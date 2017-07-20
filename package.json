@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cucumber": "^2.3.1",
+    "jetty": "^0.2.1",
     "keypress": "^0.2.1"
   }
 }

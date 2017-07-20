@@ -16,6 +16,17 @@ defineSupportCode(function({ Given, When, Then}) {
         expect(heading).to.equal('Getting started with Cucumber');
       });
   });
+
+  When('I go to Events', function () {
+    return browser.driver.findElement(by.linkText('Events')).click();
+  });
+
+  Then('I should see the Events heading', function () {
+    return browser.driver.findElement(by.tagName('h1')).getText()
+      .then(heading => {
+        expect(heading).to.equal('Upcoming Events');
+      });
+  });
 });
 
 
