@@ -1,4 +1,23 @@
 {
+  "name": "show-and-tell",
+  "description": "A Cucumber BDD tool to demo scenarios to stakeholders",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ademuk/show-and-tell.git"
+  },
+  "keywords": [
+    "bdd",
+    "cucumber",
+    "protractor"
+  ],
+  "author": "adem@ardweb.co.uk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ademuk/show-and-tell/issues"
+  },
+  "homepage": "https://github.com/ademuk/show-and-tell",
   "dependencies": {
     "cucumber": "^2.3.1",
     "jetty": "^0.2.1",

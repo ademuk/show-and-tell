@@ -1,4 +1,5 @@
 {
+  "name": "show-and-tell-example",
   "devDependencies": {
     "chai": "^4.1.0",
     "protractor": "^5.1.2",
