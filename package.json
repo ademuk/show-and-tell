@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/ademuk/show-and-tell",
   "dependencies": {
-    "cucumber": "^2.3.1",
     "jetty": "^0.2.1",
     "keypress": "^0.2.1"
+  },
+  "peerDependencies": {
+    "cucumber": "^2.x"
   }
 }
