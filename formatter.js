@@ -1,7 +1,7 @@
 const Jetty = require("jetty");;
 const { PrettyFormatter } = require('cucumber');
-const DataTable = require('./node_modules/cucumber/lib/models/step_arguments/data_table').default;
-const DocString = require('./node_modules/cucumber/lib/models/step_arguments/doc_string').default;
+const DataTable = require('cucumber/lib/models/step_arguments/data_table').default;
+const DocString = require('cucumber/lib/models/step_arguments/doc_string').default;
 
 class ShowAndTellFormatter extends PrettyFormatter {
   constructor(options) {
